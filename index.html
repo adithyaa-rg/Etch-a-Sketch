@@ -6,10 +6,32 @@
     <title>Etch-a-Sketch</title>
     <script src="Etch-a-Sketch.js" defer></script>
     <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="sketch-grid">
-
+    <div class="back-ground">
+        <div class="content">
+            <div class="sketch-grid">
+            </div>
+            <div class = 'controls'>
+                <h1 class="title">EaS</h1>
+                <div class="buttons">
+                    <button class="gameplay">Reset</button>
+                </div>
+                <div class="slidecontainer">
+                    <div id="slideValue"></div>
+                    <input type="range" min="16" max="100" value="50" class="slider" id="myRange">
+                </div>
+                <div class="colourSelect">
+                    <select name="cars" id="colourSelect">
+                        <option value="Grayscale">Grayscale</option>
+                        <option value="RGB">RGB</option>
+                    </select>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
