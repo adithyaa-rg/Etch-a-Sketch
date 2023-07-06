@@ -1,0 +1,10 @@
+body{
+    height: 100vh;
+}
+.sketch-grid{
+    width: 40%;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
